@@ -1,0 +1,20 @@
+Go,0,0
+Massachusetts General Hospital,60,2
+Johns Hopkins Hospital,60,4
+Singapore General Hospital,100,6
+Jail,100,6
+Tokyo Medical and Dental University Hospital,120,8
+Charité - Universitätsmedizin Berlin,140,10
+Bumrungrad International Hospital,140,10
+The Prince Charles Hospital,160,12
+Free Parking,180,14
+Toronto General Hospital,180,14
+University College London Hospitals,200,16
+Leiden University Medical Center,220,18
+Sheba Medical Center,220,18
+Go to Jail,240,20
+University of Michigan Hospitals and Health Centers,260,22
+Karolinska University Hospital,260,22
+University of Hong Kong - Queen Mary Hospital,280,24
+University of Zurich Hospital,300,26
+University of Sao Paulo Hospital,320,28
