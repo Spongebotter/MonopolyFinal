@@ -9,7 +9,7 @@ public class Property {
     private Player owner;
 
     // Constructor
-    public Property(String newName, int newPrice, int newRent) {
+    public Property(String newName, int newPrice, int newRent, int location2) {
         name = newName;
         price = newPrice;
         rent = newRent;
@@ -39,7 +39,11 @@ public class Property {
     }
 
     public int compareTo(Property other) {
-        return name.compareTo(other.name);
+        if(location < other.location) return -1;
+        if(location > other.location) return 1;
+        return 0;
+        
+        
     }
 
     public void setLocation(int newLocation) {

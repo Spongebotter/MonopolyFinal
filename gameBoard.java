@@ -23,7 +23,8 @@ public class gameBoard {
                 String name = data[0];
                 int price = Integer.parseInt(data[1]);
                 int rent = Integer.parseInt(data[2]);
-                this.properties.add(new Property(name, price, rent));
+                int location = Integer.parseInt(data[3]);
+                this.properties.add(new Property(name, price, rent, location));
             }
             reader.close();
         } catch (FileNotFoundException e) {
@@ -84,6 +85,8 @@ public class gameBoard {
         }
 
         System.out.println("\n\n");
+
+        sortProperties();
 
         // sortProperties();
         int i = 1;
