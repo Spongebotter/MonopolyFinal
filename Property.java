@@ -14,8 +14,15 @@ public class Property {
         price = newPrice;
         rent = newRent;
         owner = null;
-        location = 0;
+        location = location2;
     }
+
+            //Accessor to general information "toString" method.
+    public String toString() {
+    
+                String info = "\nOwner: " + owner + "\nRent: " + rent + "\nLocation: " + location +"\n";
+                return info;
+     }
 
     // Getters and Setters
     public String getName() {
@@ -52,5 +59,8 @@ public class Property {
 
     public int getLocation() {
         return location;
+    }
+
+    public void squareNum(String string) {
     }
 }

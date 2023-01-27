@@ -86,14 +86,14 @@ public class gameBoard {
 
         System.out.println("\n\n");
 
-        sortProperties();
 
-        // sortProperties();
+        sortProperties();
         int i = 1;
         for (Property p : properties) {
-            System.out.println((i++) + ": " + p.getName() + " |-----------------------------| Owner: " + p.getOwner());
+            System.out.println((i++) + ": " + p.getName() + " - Owner: " + p.getOwner());
         }
-        System.out.println("========================");
+
+        
     }
 
     // Method to search for a property

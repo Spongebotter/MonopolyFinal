@@ -32,6 +32,9 @@ public class Main {
     else if (choice == 3) {
         System.out.println("\n\n---------------------------------------------------\n\n");
         game.printToFile();
+    }else if (choice == 4) {
+        System.out.println("\n\n---------------------------------------------------\n\n");
+        game.board();
     } else {
         // While loop for menu invalid input
         while (choice < 0 || choice > 3) {

@@ -27,16 +27,16 @@ public class Player {
         return position;
     }
 
-    public void setBalance(int balance) {
-        this.balance = balance;
+    public void setBalance(int newBalance) {
+        balance = newBalance;
     }
 
-    public void addRent(int rent) {
-        this.balance += rent;
+    public void addRent(int newRent) {
+        balance += newRent;
     }
 
-    public void setPosition(String position) {
-        this.position = position;
+    public void setPosition(String newPosition) {
+        position = newPosition;
     }
 
     // Other Methods
@@ -54,5 +54,8 @@ public class Player {
     public void payRent(Player owner, int rent) {
         balance -= rent;
         owner.addRent(rent);
+    }
+
+    public void winner() {
     }
 }
